@@ -2,19 +2,23 @@
 
 TestTest is a simple project that demonstrates how to use React with Firebase for task management. It follows the composition pattern to structure components, and styles are implemented using Styled Components.
 
-## Composition Pattern
+## Installation
 
-TestTest is developed using the composition pattern, which is a design pattern that promotes building complex components by composing simpler ones. This pattern encourages the creation of small, reusable components that are combined together to create larger, more complex components. You can learn more about the composition pattern [here](https://medium.com/@guilherme.pomp/creating-react-components-with-the-composition-pattern-f59c895f27bc).
+To install TestTest, clone this repository to your local machine and run the following commands:
 
-## Firebase Integration
+```js
+npm install
+npm run dev
+npm run build
+```
 
-Instead of a traditional backend, TestTest utilizes Firebase for user authentication and data storage. User registration and authentication are handled using Firebase Authentication with email and password. The data, including tasks, is stored in a Google Firebase Realtime Database.
+This will install all the necessary dependencies listed in the package.json file.
 
 ### Database Structure
 
 The tasks are stored in the following structure:
 
-test
+```js
 |- tasks
 |- 0
 |- id: 2
@@ -25,16 +29,9 @@ test
 |- 2
 |- id: 3
 |- title: "Read book"
+```
 
 The endpoint for the Firebase Realtime Database is [https://testtask-6e9d3-default-rtdb.firebaseio.com](https://testtask-6e9d3-default-rtdb.firebaseio.com).
-
-## Styled Components
-
-The styles in TestTest are implemented using Styled Components, a CSS-in-JS library that allows you to write CSS directly in your JavaScript files. Styled Components provides a more maintainable and organized way to style React components. You can find more information about Styled Components [here](https://styled-components.com/).
-
-## Code Organization
-
-The code in TestTest is structured in a modular and organized manner. It follows the SOLID principles, specifically the Open/Closed Principle (OCP), by separating concerns and keeping functions separate from visuals. This promotes better maintainability, extensibility, and reusability of the codebase.
 
 ### Folder Structure
 
@@ -55,17 +52,21 @@ The `components` folder contains reusable components used throughout the applica
 
 The `pages` folder contains the main pages of the application, such as the Home page, Sign up page, and Login page.
 
-## Installation
+## Composition Pattern
 
-To install TestTest, clone this repository to your local machine and run the following commands:
+TestTest is developed using the composition pattern, which is a design pattern that promotes building complex components by composing simpler ones. This pattern encourages the creation of small, reusable components that are combined together to create larger, more complex components. You can learn more about the composition pattern [here](https://medium.com/@guilherme.pomp/creating-react-components-with-the-composition-pattern-f59c895f27bc).
 
-```js
-npm install
-npm run dev
-npm run build
-```
+## Firebase Integration
 
-This will install all the necessary dependencies listed in the package.json file.
+Instead of a traditional backend, TestTest utilizes Firebase for user authentication and data storage. User registration and authentication are handled using Firebase Authentication with email and password. The data, including tasks, is stored in a Google Firebase Realtime Database.
+
+## Styled Components
+
+The styles in TestTest are implemented using Styled Components, a CSS-in-JS library that allows you to write CSS directly in your JavaScript files. Styled Components provides a more maintainable and organized way to style React components. You can find more information about Styled Components [here](https://styled-components.com/).
+
+## Code Organization
+
+The code in TestTest is structured in a modular and organized manner. It follows the SOLID principles, specifically the Open/Closed Principle (OCP), by separating concerns and keeping functions separate from visuals. This promotes better maintainability, extensibility, and reusability of the codebase.
 
 ## Usage
 
