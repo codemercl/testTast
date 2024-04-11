@@ -38,6 +38,7 @@ The code in TestTest is structured in a modular and organized manner. It follows
 
 ### Folder Structure
 
+```js
 src
 |- components
 | |- Form
@@ -48,6 +49,7 @@ src
 | |- Home
 | |- Sign
 | |- Login
+```
 
 The `components` folder contains reusable components used throughout the application. Each component is further divided into subfolders based on functionality.
 
@@ -57,33 +59,44 @@ The `pages` folder contains the main pages of the application, such as the Home 
 
 To install TestTest, clone this repository to your local machine and run the following commands:
 
+```js
 npm install
+npm run dev
+npm run build
+```
+
 This will install all the necessary dependencies listed in the package.json file.
 
-Usage
+## Usage
+
 TestTest comes with several scripts that you can use to develop, build, and lint your project. Refer to the Usage section in the README for more details.
 
-Dependencies
+## Dependencies
+
 TestTest relies on the following dependencies:
 
-Firebase - A platform developed by Google for creating mobile and web applications.
-React - A JavaScript library for building user interfaces.
-React DOM - React package for working with the DOM.
-React Icons - A collection of icons for React applications.
-React Router DOM - DOM bindings for React Router.
-Styled Components - A CSS-in-JS library for styling React components.
-Dev Dependencies
+- Firebase - A platform developed by Google for creating mobile and web applications.
+- React - A JavaScript library for building user interfaces.
+- React DOM - React package for working with the DOM.
+- React Icons - A collection of icons for React applications.
+- React Router DOM - DOM bindings for React Router.
+- Styled Components - A CSS-in-JS library for styling React components.
+
+## Dev Dependencies
+
 TestTest uses the following dev dependencies:
 
-@types/react - TypeScript type definitions for React.
-@types/react-dom - TypeScript type definitions for React DOM.
-@typescript-eslint/eslint-plugin - ESLint plugin for TypeScript.
-@typescript-eslint/parser - TypeScript parser for ESLint.
-@vitejs/plugin-react - Vite plugin for React.
-eslint - A pluggable JavaScript linter.
-eslint-plugin-react-hooks - ESLint plugin for React hooks.
-eslint-plugin-react-refresh - ESLint plugin for React refresh.
-typescript - A typed superset of JavaScript that compiles to plain JavaScript.
-vite - A next-generation front-end tooling that provides fast refresh and hot module replacement (HMR) out of the box.
-Contributing
+- @types/react - TypeScript type definitions for React.
+- @types/react-dom - TypeScript type definitions for React DOM.
+- @typescript-eslint/eslint-plugin - ESLint plugin for TypeScript.
+- @typescript-eslint/parser - TypeScript parser for ESLint.
+- @vitejs/plugin-react - Vite plugin for React.
+- eslint - A pluggable JavaScript linter.
+- eslint-plugin-react-hooks - ESLint plugin for React hooks.
+- eslint-plugin-react-refresh - ESLint plugin for React refresh.
+- typescript - A typed superset of JavaScript that compiles to plain JavaScript.
+- vite - A next-generation front-end tooling that provides fast refresh and hot module replacement (HMR) out of the box.
+
+## Contributing
+
 If you'd like to contribute to TestTest, please fork the repository and submit a pull request. You can also open an issue if you find any bugs or have any feature requests.
